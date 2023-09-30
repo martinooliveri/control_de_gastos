@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de gastos</title>
+</head>
+<body>
+
+    <div style="text-align: center;">
+
+        <h2 style="font-family: cursive; color: black;">Control de gastos (patente pendiente)</h2>
+        <hr>
+        <br>
+        <br>
+        <label for="txtValorCompraIngresada"> 1) Ingrese el valor de la compra o pag7yuo: </label>
+        <input type="text" id="txtValorCompraIngresada" placeholder="Ingrese un valor...">
+        <br>
+        <br>
+        <br>
+        <p`>2) Realizo la compra en pesos o dolares?</p>
+        <label for="rPesos">Pesos</label>
+        <input type="radio" name="rDivisa" id="rPesos" value="PESOS">
+        <br>
+        <label for="rDolares">Dolares</label>
+        <input type="radio" name="rDivisa" id="rDolares" value="Dolares">
+        <br>
+        <label for="txtCotizacionDolarIngresada">Cotizacion: </label>
+        <input type="text" id="txtCotizacionDolarIngresada">
+        <br>
+        <br>
+        <label for="slcTipoCompraIngresada">Que tipo de compra o pago realizo?</label>
+        <br>
+        <select id="slcTipoCompraIngresada">
+            <option value="-1">Seleccione una opcion...</option>
+            <option value="Gastos Comunes">Gastos Comunes</option>
+            <option value="Almuerzo Laburo">Almuerzo Laburo</option>
+            <option value="Cigarrillos">Cigarillos</option>
+            <option value="Comida">Comida</option>
+            <option value="Pago Tarjeta">Pago Tarjeta</option>
+            <option value="Boletera">Boletera</option>
+            <option value="Ropa">Ropa</option>
+            <option value="CPersonal">Cuidado Personal</option>
+        </select>
+        <br>
+        <br>
+        <label for="dateFechaDeCompra">Ingrese el dia de la compra/pago o deje vacio si se realizo hoy</label>
+        <input type="date" placeholder="">
+
+    </div>
+    
+</body>
+</html>

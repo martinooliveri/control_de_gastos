@@ -2,5 +2,5 @@ document.querySelector("#btnCargarTransaccion").addEventListener("click", cargar
 
 function cargarTransaccion()
 {
-    
+    let transaccionValor = document.querySelector("#txtValorCompraIngresada").value;
 }

@@ -2,5 +2,6 @@ document.querySelector("#btnCargarTransaccion").addEventListener("click", cargar
 
 function cargarTransaccion()
 {
-    let transaccionValor = document.querySelector("#txtValorCompraIngresada").value;
+    let transaccionValor = Number(document.querySelector("#txtValorCompraIngresada").value);
+    let transaccionEnDolares = document.querySelector("#checkCompraEnDolares").checked;
 }
